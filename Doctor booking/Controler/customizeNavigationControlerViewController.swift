@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  customizeNavigationControlerViewController.swift
 //  Doctor booking
 //
 //  Created by fares elsokary on 10/7/18.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class customizeNavigationControlerViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+    // self.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
+    
 
 
 }
-
