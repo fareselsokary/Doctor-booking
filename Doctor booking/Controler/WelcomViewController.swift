@@ -18,7 +18,7 @@ class WelcomViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         if Auth.auth().currentUser != nil{
-            performSegue(withIdentifier: "homeToSearch", sender: self)
+            performSegue(withIdentifier: "homeToAdd", sender: self)
         }
     }
     @IBAction func backButtonPressed(_ sender: UIButton) {

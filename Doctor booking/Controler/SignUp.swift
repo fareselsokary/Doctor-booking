@@ -15,7 +15,6 @@ class SignUp: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var userName: UITextField!
-    
     @IBOutlet weak var continueButton: RoundButtonCorners!
     @IBOutlet weak var buttonHeightConstrain: NSLayoutConstraint!
     
@@ -86,9 +85,9 @@ class SignUp: UIViewController, UITextFieldDelegate {
     
     
     func adduserName(){
-        if let userNaeText = userName.text{
+        if let userNameText = userName.text{
         let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
-        changeRequest?.displayName = userNaeText
+        changeRequest?.displayName = userNameText
         changeRequest?.commitChanges(completion: { (error) in
             if error == nil{
                 print("user display changed")
@@ -104,7 +103,6 @@ class SignUp: UIViewController, UITextFieldDelegate {
             self.dismiss(animated: false, completion: nil)
         }else{
             if self.userStatus.selectedSegmentIndex == 1{
-                print("111111111111111111111111111111111111")
                 self.performSegue(withIdentifier: "signUpToAddDoctor", sender: self)
             }
         }
@@ -130,7 +128,6 @@ class SignUp: UIViewController, UITextFieldDelegate {
     
     @IBAction func contiueButtonPressed(_ sender: RoundButtonCorners) {
         checkTextField()
-        
     }
     
     @IBAction func backButton(_ sender: UIButton) {
