@@ -16,13 +16,11 @@ class WelcomViewController: UIViewController {
 
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        if Auth.auth().currentUser != nil{
-            performSegue(withIdentifier: "homeToAdd", sender: self)
-        }
-    }
-    @IBAction func backButtonPressed(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        if Auth.auth().currentUser != nil{
+//            performSegue(withIdentifier: "homeToAdd", sender: self)
+//        }
+//    }
+   
 }
 

@@ -10,38 +10,44 @@
 		3D82DEBF353DFDE3C9E2FC90 /* Pods_Doctor_booking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899D9A2830EEA6B17D0660C1 /* Pods_Doctor_booking.framework */; };
 		7E11AA5B216BC6D50020D45C /* NewDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11AA5A216BC6D50020D45C /* NewDoctor.swift */; };
 		7E11AA7B216BF39E0020D45C /* DoctorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11AA7A216BF39E0020D45C /* DoctorInfo.swift */; };
+		7E8F813D216E4B5C00485485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F813C216E4B5C00485485 /* Main.storyboard */; };
 		7EA90836216A474B00AB06D1 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA90835216A474B00AB06D1 /* SignUp.swift */; };
 		7EA9083A216A5E7200AB06D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA90839216A5E7200AB06D1 /* GoogleService-Info.plist */; };
-		7EA9083E216A9C9C00AB06D1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9083D216A9C9C00AB06D1 /* SearchViewController.swift */; };
+		7EA9083E216A9C9C00AB06D1 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9083D216A9C9C00AB06D1 /* SearchResultViewController.swift */; };
 		7EAA8A642169F75C006BD691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA8A632169F75C006BD691 /* AppDelegate.swift */; };
 		7EAA8A662169F75C006BD691 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA8A652169F75C006BD691 /* WelcomViewController.swift */; };
-		7EAA8A692169F75C006BD691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA8A672169F75C006BD691 /* Main.storyboard */; };
 		7EAA8A6B2169F75C006BD691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA8A6A2169F75C006BD691 /* Assets.xcassets */; };
 		7EAA8A6E2169F75C006BD691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA8A6C2169F75C006BD691 /* LaunchScreen.storyboard */; };
 		7EAA8A792169FF08006BD691 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA8A782169FF08006BD691 /* GradiantView.swift */; };
 		7EAA8A7B216A09A4006BD691 /* RoundButtonCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA8A7A216A09A4006BD691 /* RoundButtonCorners.swift */; };
 		7EAA8A7D216A21C6006BD691 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA8A7C216A21C6006BD691 /* LogIn.swift */; };
+		7EBF6815216FA3F1003C54F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6814216FA3F1003C54F0 /* SearchViewController.swift */; };
 		7EFA2D9B216B6770003CCD1C /* ImageBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA2D9A216B6770003CCD1C /* ImageBorder.swift */; };
+		7EFCBEAB216F669600F7D785 /* DoctorProfileCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCBEA9216F669600F7D785 /* DoctorProfileCellTableViewCell.swift */; };
+		7EFCBEAC216F669600F7D785 /* DoctorProfileCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFCBEAA216F669600F7D785 /* DoctorProfileCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7933151C8BF8C22A9DA9560F /* Pods-Doctor booking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor booking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor booking/Pods-Doctor booking.release.xcconfig"; sourceTree = "<group>"; };
 		7E11AA5A216BC6D50020D45C /* NewDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDoctor.swift; sourceTree = "<group>"; };
 		7E11AA7A216BF39E0020D45C /* DoctorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfo.swift; sourceTree = "<group>"; };
+		7E8F813C216E4B5C00485485 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7EA90835216A474B00AB06D1 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		7EA90839216A5E7200AB06D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7EA9083D216A9C9C00AB06D1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7EA9083D216A9C9C00AB06D1 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		7EAA8A602169F75C006BD691 /* Doctor booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAA8A632169F75C006BD691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EAA8A652169F75C006BD691 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
-		7EAA8A682169F75C006BD691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EAA8A6A2169F75C006BD691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAA8A6D2169F75C006BD691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EAA8A6F2169F75C006BD691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EAA8A782169FF08006BD691 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
 		7EAA8A7A216A09A4006BD691 /* RoundButtonCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonCorners.swift; sourceTree = "<group>"; };
 		7EAA8A7C216A21C6006BD691 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		7EBF6814216FA3F1003C54F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7EFA2D9A216B6770003CCD1C /* ImageBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBorder.swift; sourceTree = "<group>"; };
+		7EFCBEA9216F669600F7D785 /* DoctorProfileCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileCellTableViewCell.swift; sourceTree = "<group>"; };
+		7EFCBEAA216F669600F7D785 /* DoctorProfileCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorProfileCellTableViewCell.xib; sourceTree = "<group>"; };
 		899D9A2830EEA6B17D0660C1 /* Pods_Doctor_booking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doctor_booking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16F7F171188765A1FCBC0EA /* Pods-Doctor booking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doctor booking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doctor booking/Pods-Doctor booking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +93,7 @@
 		7EAA8A622169F75C006BD691 /* Doctor booking */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA2D9C216B6908003CCD1C /* Custom Views */,
+				7EFA2D9C216B6908003CCD1C /* Custom Controles */,
 				7EAA8A752169F766006BD691 /* Model */,
 				7EAA8A772169F786006BD691 /* Controler */,
 				7EAA8A762169F779006BD691 /* View */,
@@ -110,7 +116,8 @@
 		7EAA8A762169F779006BD691 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7EAA8A672169F75C006BD691 /* Main.storyboard */,
+				7E8F813C216E4B5C00485485 /* Main.storyboard */,
+				7EFCBEAA216F669600F7D785 /* DoctorProfileCellTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,20 +129,22 @@
 				7EAA8A652169F75C006BD691 /* WelcomViewController.swift */,
 				7EAA8A7C216A21C6006BD691 /* LogIn.swift */,
 				7EA90835216A474B00AB06D1 /* SignUp.swift */,
-				7EA9083D216A9C9C00AB06D1 /* SearchViewController.swift */,
 				7E11AA5A216BC6D50020D45C /* NewDoctor.swift */,
+				7EFCBEA9216F669600F7D785 /* DoctorProfileCellTableViewCell.swift */,
+				7EA9083D216A9C9C00AB06D1 /* SearchResultViewController.swift */,
+				7EBF6814216FA3F1003C54F0 /* SearchViewController.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
 		};
-		7EFA2D9C216B6908003CCD1C /* Custom Views */ = {
+		7EFA2D9C216B6908003CCD1C /* Custom Controles */ = {
 			isa = PBXGroup;
 			children = (
 				7EAA8A782169FF08006BD691 /* GradiantView.swift */,
 				7EAA8A7A216A09A4006BD691 /* RoundButtonCorners.swift */,
 				7EFA2D9A216B6770003CCD1C /* ImageBorder.swift */,
 			);
-			path = "Custom Views";
+			path = "Custom Controles";
 			sourceTree = "<group>";
 		};
 		A1E7FC24A988BF9A1978F316 /* Pods */ = {
@@ -207,10 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFCBEAC216F669600F7D785 /* DoctorProfileCellTableViewCell.xib in Resources */,
 				7EAA8A6E2169F75C006BD691 /* LaunchScreen.storyboard in Resources */,
 				7EA9083A216A5E7200AB06D1 /* GoogleService-Info.plist in Resources */,
 				7EAA8A6B2169F75C006BD691 /* Assets.xcassets in Resources */,
-				7EAA8A692169F75C006BD691 /* Main.storyboard in Resources */,
+				7E8F813D216E4B5C00485485 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +238,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Doctor booking/Pods-Doctor booking-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -237,6 +249,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -277,9 +291,11 @@
 				7EAA8A7D216A21C6006BD691 /* LogIn.swift in Sources */,
 				7EA90836216A474B00AB06D1 /* SignUp.swift in Sources */,
 				7EFA2D9B216B6770003CCD1C /* ImageBorder.swift in Sources */,
-				7EA9083E216A9C9C00AB06D1 /* SearchViewController.swift in Sources */,
+				7EA9083E216A9C9C00AB06D1 /* SearchResultViewController.swift in Sources */,
 				7E11AA7B216BF39E0020D45C /* DoctorInfo.swift in Sources */,
 				7EAA8A662169F75C006BD691 /* WelcomViewController.swift in Sources */,
+				7EBF6815216FA3F1003C54F0 /* SearchViewController.swift in Sources */,
+				7EFCBEAB216F669600F7D785 /* DoctorProfileCellTableViewCell.swift in Sources */,
 				7E11AA5B216BC6D50020D45C /* NewDoctor.swift in Sources */,
 				7EAA8A792169FF08006BD691 /* GradiantView.swift in Sources */,
 				7EAA8A642169F75C006BD691 /* AppDelegate.swift in Sources */,
@@ -290,14 +306,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7EAA8A672169F75C006BD691 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EAA8A682169F75C006BD691 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7EAA8A6C2169F75C006BD691 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
